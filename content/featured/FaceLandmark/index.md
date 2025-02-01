@@ -2,8 +2,8 @@
 date: '4'
 title: 'AI Face Landmark Detection'
 cover: 'face-landmark.png'
-github: 'https://github.com/yashitanamdeo/face-landmark-detection'
-external: 'https://yashitanamdeo.github.io/face-landmark-detection/'
+github: 'https://github.com/anu7699/face-landmark-detection'
+external: 'https://anuagarwal.github.io/face-landmark-detection/'
 tech:
   - TensorFlow.JS
   - React

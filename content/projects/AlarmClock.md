@@ -1,7 +1,7 @@
 ---
 date: '2020-02-12'
 title: 'Alarm Clock'
-github: 'https://github.com/yashitanamdeo/AlarmClock'
+github: 'https://github.com/anu7699/AlarmClock'
 external: ''
 tech:
   - Python

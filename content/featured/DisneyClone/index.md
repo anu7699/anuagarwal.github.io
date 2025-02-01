@@ -2,7 +2,7 @@
 date: '2'
 title: 'Disney+ Clone'
 cover: './disneyclone.png'
-github: 'https://github.com/yashitanamdeo/Disney-plus-Clone'
+github: 'https://github.com/anu7699/Disney-plus-Clone'
 external: 'https://disney-clone-83e44.web.app/'
 tech:
   - ReactJS

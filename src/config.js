@@ -1,34 +1,26 @@
 module.exports = {
-  siteTitle: 'Yashita Namdeo',
+  siteTitle: 'Anu Agarwal',
   siteDescription:
-    'Yashita Namdeo is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Anu Agarwal is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Yashita Namdeo, Yashita, Namdeo, yashitanamdeo, software engineer, web developer, javascript, python, java, svvv, indore',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+    'Anu Agarwal, Anu, Agarwal, anuagarrwal, software engineer, web developer, javascript, python, java, svvv, indore',
+  siteUrl: 'https://anuagarwal.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Yashita Namdeo',
-  location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  name: 'Anu Agarwal',
+  location: 'Champaign, Illinois, United States',
+  email: 'anua2@illinois.edu',
+  github: 'https://github.com/anu7699',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/anu7699',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yashitanamdeo/',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/yashitanamdeo',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/yashitanamdeo',
+      url: 'https://linkedin.com/in/anuagarwal7/',
     },
     {
       name: 'Twitter',
