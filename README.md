@@ -1,74 +1,152 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/anu7699/anuagarwal.github.io/blob/source/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  Portfolio Website Version 1
-</h1>
-<p align="center">
-  The first iteration of <a href="https://anuagarwal.github.io/" target="_blank">Anu Agarwal's</a> portfolio built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
-</p>
-<!-- <p align="center">
-  Previous iterations:
-  <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io-v1" target="_blank">Version 1</a>
-</p> -->
+# Portfolio Website - Deployment Instructions
 
-<div align="center">
-  <img alt="Demo" src="https://github.com/anu7699/anuagarwal.github.io/blob/source/src/images/demo.png" />
-</div>
+This is your professional portfolio website built with HTML, CSS, and JavaScript. It's designed to be hosted on GitHub Pages.
 
-### TL;DR
+## 🚀 Quick Start - Deploy to GitHub Pages
 
-Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+### Option 1: Using Your Existing GitHub.io Repository
 
-## 🛠 Installation & Set Up
+If you already have a repository named `anu7699.github.io`:
 
-1. Install the Gatsby CLI
-
-   ```sh
-   npm install -g gatsby-cli
+1. Clone your repository:
+   ```bash
+   git clone https://github.com/anu7699/anu7699.github.io.git
+   cd anu7699.github.io
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+2. Copy the `index.html` file to the root of your repository
 
-   ```sh
-   nvm install
+3. Commit and push:
+   ```bash
+   git add index.html
+   git commit -m "Add portfolio website"
+   git push origin main
    ```
 
-3. Install dependencies
+4. Your site will be live at: `https://anu7699.github.io`
 
-   ```sh
-   yarn
+### Option 2: Create a New GitHub.io Repository
+
+If you don't have a GitHub.io repository yet:
+
+1. Go to [GitHub](https://github.com) and create a new repository
+2. Name it exactly: `anu7699.github.io` (replace with your GitHub username)
+3. Make it public
+4. Don't initialize with README
+
+5. Then run:
+   ```bash
+   git init
+   git add index.html README.md
+   git commit -m "Initial commit - Portfolio website"
+   git branch -M main
+   git remote add origin https://github.com/anu7699/anu7699.github.io.git
+   git push -u origin main
    ```
 
-4. Start the development server
+6. Your site will be live at: `https://anu7699.github.io` within a few minutes
 
-   ```sh
-   npm start
+### Option 3: Deploy to a Project Repository
+
+If you want to keep this as a separate project:
+
+1. Create a new repository on GitHub (e.g., `portfolio`)
+2. Clone and add the files:
+   ```bash
+   git clone https://github.com/anu7699/portfolio.git
+   cd portfolio
+   # Copy index.html here
+   git add .
+   git commit -m "Add portfolio website"
+   git push origin main
    ```
 
-## 🚀 Building and Running for Production
+3. Enable GitHub Pages:
+   - Go to repository Settings
+   - Click "Pages" in the left sidebar
+   - Under "Source", select "main" branch
+   - Click Save
 
-1. Generate a full static production build
+4. Your site will be live at: `https://anu7699.github.io/portfolio`
 
-   ```sh
-   npm run build
+## 🎨 Customization
+
+The website is fully self-contained in a single HTML file. You can customize:
+
+### Colors
+Edit the CSS variables at the top of the `<style>` section:
+```css
+:root {
+    --primary: #0a0e27;      /* Main background */
+    --accent: #00d4ff;       /* Accent color (cyan) */
+    --accent-warm: #ff6b9d;  /* Secondary accent (pink) */
+    /* ... */
+}
+```
+
+### Content
+All content is in the HTML. Simply find the section you want to edit and update the text.
+
+### Links
+Update your social links at the bottom:
+- LinkedIn: Find `https://linkedin.com/in/anuagarwal7`
+- GitHub: Find `https://github.com/anu7699`
+- Email: Already set to `anua2@illinois.edu`
+
+## 📱 Features
+
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **Smooth Animations**: Scroll-based animations and hover effects
+- **Modern UI**: Clean, professional design with a dark theme
+- **Fast Loading**: Single HTML file, no dependencies
+- **SEO Optimized**: Proper semantic HTML structure
+
+## 🛠 Local Testing
+
+To test locally before deploying:
+
+1. Simply open `index.html` in your browser
+2. Or use a local server:
+   ```bash
+   # Python 3
+   python -m http.server 8000
+   
+   # Then visit http://localhost:8000
    ```
 
-1. Preview the site as it will appear once deployed
+## 📄 File Structure
 
-   ```sh
-   npm run serve
-   ```
+```
+portfolio/
+├── index.html          # Your complete website
+└── README.md          # This file
+```
 
-## 🎨 Color Reference
+## 💡 Tips
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+1. **Custom Domain**: You can add a custom domain in GitHub Pages settings
+2. **Analytics**: Add Google Analytics by inserting the tracking code before `</head>`
+3. **Updates**: Just edit `index.html` and push - changes go live automatically
+4. **Backup**: Keep the original HTML file as a backup before making changes
+
+## 🎯 What's Included
+
+- Hero section with your introduction
+- Experience timeline with all positions
+- Publications with proper citations
+- Featured projects
+- Education credentials with GPA
+- Technical skills organized by category
+- Professional footer with social links
+
+## 📞 Need Help?
+
+If you encounter any issues:
+1. Check the GitHub Pages documentation: https://pages.github.com
+2. Verify the repository name is correct (`username.github.io`)
+3. Make sure the repository is public
+4. Wait 5-10 minutes after pushing for changes to appear
+
+---
+
+Built with ❤️ using modern web technologies
